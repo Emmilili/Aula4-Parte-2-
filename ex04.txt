@@ -1,0 +1,81 @@
+El nombre de mi máquina es emmi-lili, el comando que usé para saber eso
+fue el de "hostname" al poner el comando "hostname" nosotros podemos saber
+el nombre de la máquina. Y con el comando "who am I" podemos saber el nombre
+del usuario.
+
+EL ccomando para saber la hora y fecha de mi máquina es "date" donde a
+continuación me sale jue feb 13 02:32:50 -04 2020
+
+La siguiente instrucción es la ejecutar 10 comandos de linux. Empezamos con:
+
+-find
+En el directorio donde me encuentro, al poner este comando me sale en
+pantalla lo siguiente:
+.
+./LinuxUltimo.txt
+
+siendo asi todos los archivos que se encuentran en el directorio incluyendo
+el "."
+
+- find ./ejercicios -maxdepth 1 -name *.txt
+
+Esto nos sirve para buscar en las diferentes capas de profundidad que
+querramos. Por ejemplo yo busqué todos mis archivos .txt dentro de la
+carpeta donde hago mis ejercicios donde así sale en pantalla:
+
+./ejercicios/LinuxUltimo.txt
+
+
+- find ./ejercicios -name 'LinuxUltimo'* ! -name '.txt'*
+Este comando nos permite buscar más minuciosamente los archivos, LinuxUltimo
+es el nombre de mi archivo donde guardo este ejercicio, entonces lo que
+sale a continuación es lo siguiente:
+
+./ejercicios/LinuxUltimo.txt
+siendo asi todos los archivos que se encuentran en el directorio incluyendo
+el "."
+
+- find ./ejercicios -maxdepth 1 -name *.txt
+
+Esto nos sirve para buscar en las diferentes capas de profundidad que
+querramos. Por ejemplo yo busqué todos mis archivos .txt dentro de la
+carpeta donde hago mis ejercicios donde así sale en pantalla:
+
+./ejercicios/LinuxUltimo.txt
+
+
+- find ./ejercicios -name 'LinuxUltimo'* ! -name '.txt'*
+Este comando nos permite buscar más minuciosamente los archivos, LinuxUltimo
+es el nombre de mi archivo donde guardo este ejercicio, entonces lo que
+sale a continuación es lo siguiente:
+
+./ejercicios/LinuxUltimo.txt
+
+siendo asi todos los archivos que se encuentran en el directorio incluyendo
+el "."
+
+- find ./ejercicios -maxdepth 1 -name *.txt
+
+Esto nos sirve para buscar en las diferentes capas de profundidad que
+querramos. Por ejemplo yo busqué todos mis archivos .txt dentro de la
+carpeta donde hago mis ejercicios donde así sale en pantalla:
+
+./ejercicios/LinuxUltimo.txt
+
+
+- find ./ejercicios -name 'LinuxUltimo'* ! -name '.txt'*
+Este comando nos permite buscar más minuciosamente los archivos, LinuxUltimo
+es el nombre de mi archivo donde guardo este ejercicio, entonces lo que
+sale a continuación es lo siguiente:
+
+./ejercicios/LinuxUltimo.txt
+Es el archivo donde estoy actualmente contando igual la carpeta donde me
+encuentro y el contenido que tiene.
+
+- find /Ejericio/UltimoLinux -group adm
+Esto busca dentro de la carpeta y el archivo con un grupo que tienes dentro
+de Linux
+
+- find / -ntime5
+Para localizar archivos que fueron editados en "n" días, en este caso
+buscamos con -ntime1 pero no tuvimos ningun cambio en estos días.
